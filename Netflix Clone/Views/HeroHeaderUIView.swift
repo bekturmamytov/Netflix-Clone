@@ -38,6 +38,12 @@ class HeroHeaderUIView: UIView {
         imageView.image = UIImage(named: "heroImage")
         return imageView
     }()
+    // for test purpose
+    private let button: UIButton = {
+        let button = UIButton()
+        
+        return button
+    }()
 
     private func addGradient() {
         let gradientLayer = CAGradientLayer()
